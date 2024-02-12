@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <h1>Faça seu Login</h1>
+      <div class="login">
+        <form action="validaLogin.php" method="post">
+          <div class="inputDados">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="inputDados">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" />
+          </div>
+
+          <button class="login-btn" type="submit">Entrar</button>
+          <br>
+        </form>
+
+        <div class="more">
+          <a href="recuperaSenha.html">Esqueci minha senha</a>
+          <a href="criarConta.html">Criar Conta</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Criar Conta</title>
+  </head>
+  <body>
+    <main>
+      <h1>Conclua o Cadastro</h1>
+      <form method="post" action="cadastrarConta.php" enctype="multipart/form-data">
+        <div class="login">
+          <div class="inputDados">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required/>
+          </div>
+          <div class="inputDados">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" required/>
+          </div>
+          <div class="inputDados">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required/>
+          </div>
+          <div class="inputDados">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" required/>
+          </div>
+          <div class="inputDados">
+            <label for="foto">Foto de Perfil</label>
+            <input type="file" name="foto" accept="image/*" id="foto" required/>
+          </div>
+          <button class="login-btn" type="submit">Cadastrar</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
