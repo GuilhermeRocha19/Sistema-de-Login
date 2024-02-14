@@ -1,4 +1,5 @@
-<?php require_once('./conexao/Conexao.php');
+<?php require_once('../includes/conexao/Conexao.php');
+require '../vendor/autoload.php';
 
 $conn = new Conexao();
 
@@ -25,7 +26,7 @@ if($result){
         alert("Sua conta foi criada com sucesso!");
     </script>
     <?php
-    header('Location: index.html');
+    header('Location: ../index.html');
 }else{
     ?>
     <script>
