@@ -60,6 +60,7 @@ try {
         alert('E-mail enviado com sucesso')
     </script>
     <?php
+    header('Location: ../index.html');
     exit();
     
 } catch (Exception $e) {
@@ -69,7 +70,9 @@ try {
         alert('Erro ao enviar e-mail!')
     </script>
     <?php
+    header('Location: ../index.html');
     exit();
+    
 }
 
 
