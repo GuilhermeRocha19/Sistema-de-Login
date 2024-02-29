@@ -36,6 +36,3 @@ git clone https://github.com/GuilhermeRocha19/sistema-de-login.git
 
 Contribuições são bem-vindas! Se você encontrar algum problema, bug ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE).   
